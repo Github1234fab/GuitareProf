@@ -6,10 +6,12 @@
 body,
 html {
        font-size: 16px;
-       font-family: "Raleway";
+       font-family: Raleway;
 }
 
 :root{
         --bgHeader: #14282C;
-        --orange: #c5a527;
+        --CTA: #c5a527;
+            --white: rgb(239, 237, 237);
+        --Raleway: 'Raleway', sans-serif;
 }

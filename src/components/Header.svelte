@@ -12,7 +12,7 @@
                 <img class="strato" src={StratoThree} alt="Guitare" />
                 <img class="strato" src={StratoFour} alt="Guitare" /> -->
         </div>
-        <!-- <h1>Fabien Marceau</h1> -->
+
         <div class="menu">
                 <h2>lorem</h2>
                 <h2>lorem</h2>
@@ -21,7 +21,16 @@
 </header>
 
 <style>
-        .strato {
+       
+        header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 70px;
+                background-color: var(--bgHeader);
+                padding: 50px;
+        }
+         .strato {
                 margin-left: 0px;
                 height: 70px;
         }
@@ -33,18 +42,7 @@
                 grid-column: 1/3;
                 grid-row: 1;
         }
-        header {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                height: 70px;
-                background-color: var(--bgHeader);
-                padding: 50px;
-        }
-        /* header h1 {
-                color: white;
-                font-family: "Square peg";
-        } */
+    
         .menu {
                 display: flex;
                 align-items: center;
