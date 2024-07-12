@@ -5,20 +5,20 @@
         const tab = [
                 {
                         title: "Théorie",
-                        subtitle: "vekhrbvekrhbvkerhbvkehrbvkherbvvnfslnvslfjnvlsjfnv",
+                        subtitle: "lore zjeklfnlzej efjn elfnjz ljfkzenfj fjen fine jfj jf fj ljzenf",
                         bgImageUrl: StratoOne,
                 },
                 {
                         title: "Théorie",
-                        subtitle: "vekhrbvekrhbvkerhbvkehrbvkherbvsfvsfvfvfsvsfv",
+                        subtitle: "lore zjeklfnlzej efjn elfnjz ljfkzenfj fjen fine jfj jf fj ljzenf",
                 },
                 {
                         title: "Théorie",
-                        subtitle: "vekhrbvekrhbvkerhbvkehrbvkherbvsfvsfvsfvsfv",
+                        subtitle: "lore zjeklfnlzej efjn elfnjz ljfkzenfj fjen fine jfj jf fj ljzenf",
                 },
                 {
                         title: "Théorie",
-                        subtitle: "vekhrbvekrhbvkerhbvkehrbvkherbvsfvsfvsfvsfvsfvsfvsfvfsv",
+                        subtitle: "lore zjeklfnlzej efjn elfnjz ljfkzenfj fjen fine jfj jf fj ljzenf",
                 },
         ];
 </script>
@@ -39,9 +39,10 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 2000px;
+                height: auto;
                 gap: 50px;
                 padding: 50px;
+                background-color: var(--bgSectionB);
         }
         .products h1 {
                 font-size: 2rem;
@@ -56,7 +57,10 @@
                 align-items: center;
                 justify-content: center;
                 gap: 50px;
-                flex-wrap: wrap;
-                gap: 150px;
+        }
+        @media screen and (max-width: 768px) {
+                .wrapper-card {
+                        flex-direction: column;
+                }
         }
 </style>

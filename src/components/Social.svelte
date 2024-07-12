@@ -21,6 +21,7 @@
         height: auto;
         gap: 50px;
         padding: 50px;
+        background-color: var(--bgSectionA);
 }
 .social h1 {
         font-size: 2rem;

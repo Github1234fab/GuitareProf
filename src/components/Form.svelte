@@ -17,7 +17,6 @@
                 justify-content: center;
                 height: auto;
                 gap: 50px;
-                padding: 50px;
         }
         .form h1 {
                 font-size: 2rem;

@@ -33,7 +33,6 @@
                 {#each tabServices as info}
                         <FrameCircle icon={info.icon} title={info.title} paragraph={info.paragraph} />
                 {/each}
-                <FrameCircle />
         </div>
 </section>
 
@@ -43,7 +42,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 1000px;
+                height: auto;
                 gap: 50px;
                 padding: 50px;
         }
@@ -59,6 +58,20 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 50px;
+                gap: 30px;
+        }
+            @media screen and (max-width: 768px) {
+                .service {
+                        grid-template-columns: 1fr;
+                        height: 2000px;
+                }
+        
+                .wrapper-frames-circles {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 40px;
+                }
         }
 </style>

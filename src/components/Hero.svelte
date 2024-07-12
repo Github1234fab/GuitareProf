@@ -1,12 +1,10 @@
 <script>
         import Button from "../components/ButtonCTA.svelte";
-
 </script>
 
 <section class="hero">
-      
         <h1>Des cours de guitare experts, à votre portée et à votre domicile !</h1>
-        <div class="button"><Button/></div>
+        <div class="button"><Button /></div>
 </section>
 
 <style>
@@ -34,6 +32,5 @@
                 grid-row: 3;
                 margin-top: 30px;
         }
-     
-    
+
 </style>

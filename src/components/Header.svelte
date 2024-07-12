@@ -14,24 +14,24 @@
         </div>
 
         <div class="menu">
-                <h2>lorem</h2>
-                <h2>lorem</h2>
-                <h2>lorem</h2>
+                <a href="/">About</a>
+                <a href="/">Products</a>
+                <a href="/">Services</a>
+                <a href="/">Contact</a>
         </div>
 </header>
 
 <style>
-       
         header {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                height: 70px;
+                height: 80px;
                 background-color: var(--bgHeader);
-                padding: 50px;
+                padding: 20px;
         }
-         .strato {
-                margin-left: 0px;
+        .strato {
+                margin-left: -30px;
                 height: 70px;
         }
         .container-strat {
@@ -42,7 +42,7 @@
                 grid-column: 1/3;
                 grid-row: 1;
         }
-    
+
         .menu {
                 display: flex;
                 align-items: center;
@@ -50,9 +50,16 @@
                 font-size: 1rem;
                 gap: 20px;
         }
-        header h2 {
+        .menu a {
+                text-decoration: none;
                 color: white;
+                   color: white;
                 font-weight: 400;
                 font-size: 1rem;
+                transition: 0.4s ease-in-out;
         }
+        .menu a:hover {
+      color: var(--CTA);
+        }
+  
 </style>
