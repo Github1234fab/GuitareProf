@@ -31,6 +31,7 @@
                 grid-column: 1/3;
                 grid-row: 3;
                 margin-top: 30px;
+                z-index:   0;
         }
 
 </style>

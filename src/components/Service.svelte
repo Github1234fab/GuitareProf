@@ -3,29 +3,29 @@
 
         const tabServices = [
                 {
-                        title: "khjfbkhs",
+                        title: "Fiabilité",
                         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
                         icon: "icon",
                 },
                 {
-                        title: "khjfbkhs",
+                        title: "Avance de crédit d'impôt",
                         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
                         icon: "icon",
                 },
                 {
-                        title: "khjfbkhs",
+                        title: "Tarifs compétitifs",
                         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
                         icon: "icon",
                 },
-                {
-                        title: "khjfbkhs",
-                        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
-                        icon: "icon",
-                },
+                // {
+                //         title: "",
+                //         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
+                //         icon: "icon",
+                // },
         ];
 </script>
 
-<section class="service">
+<section class="service" id="Services">
         <h1>Services</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit vel natus minus fuga cupiditate dolore provident inventore nesciunt consequuntur atque quidem laboriosam quaerat asperiores minima dicta nemo, modi id!</p>
 
@@ -47,11 +47,9 @@
                 padding: 50px;
         }
         .service h1 {
-                font-size: 2rem;
                 font-weight: 800;
         }
         .service p {
-                font-size: 1.3rem;
                 font-weight: 400;
         }
         .wrapper-frames-circles {
@@ -60,11 +58,7 @@
                 justify-content: center;
                 gap: 30px;
         }
-            @media screen and (max-width: 768px) {
-                .service {
-                        grid-template-columns: 1fr;
-                        height: 2000px;
-                }
+        @media screen and (max-width: 768px) {
         
                 .wrapper-frames-circles {
                         display: flex;

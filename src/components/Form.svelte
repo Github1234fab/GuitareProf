@@ -2,7 +2,7 @@
         import Formulaire from "../components/Formulaire.svelte";
 </script>
 
-<section class="form">
+<section class="form" id="Form">
         <h1>Form</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, accusamus cupiditate? Beatae pariatur illo corporis corrupti consectetur, libero, dolores quam ratione nihil asperiores, rerum iusto perspiciatis assumenda mollitia deleniti ducimus.</p>
 

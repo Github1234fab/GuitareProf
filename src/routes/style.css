@@ -5,15 +5,18 @@
 }
 body,
 html {
-       font-size: 16px;
-       font-family: Raleway;
+        font-size: 16px;
+        font-family: Raleway;
+        scroll-behavior: smooth;
+
 }
 
-:root{
-        --bgHeader: #14282C;
+:root {
+        --bgHeader: #14282c;
         --CTA: #c5a527;
-            --white: rgb(239, 237, 237);
-        --Raleway: 'Raleway', sans-serif;
+        --white: rgb(235, 235, 235);
+        --Raleway: "Raleway", sans-serif;
         --bgSectionA: #f5f5f5;
         --bgSectionB: #7d7070;
+        --bgSectionC: #49494c;
 }

@@ -14,10 +14,10 @@
         </div>
 
         <div class="menu">
-                <a href="/">About</a>
-                <a href="/">Products</a>
-                <a href="/">Services</a>
-                <a href="/">Contact</a>
+                <a href="#About">Profil</a>
+                <a href="#Products">Cours</a>
+                <a href="#Services">Conditions</a>
+                <a href="#section-form">Contact</a>
         </div>
 </header>
 

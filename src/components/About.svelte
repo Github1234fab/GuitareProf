@@ -5,28 +5,34 @@
 
         let tab = [
                 {
-                        title: "khjfbkhs",
-                        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
+                        title: "+ 17 000",
+                        paragraph: "J'ai plus de 17 000 heures de cours de Guitare à mon actif !",
                         icon: "icon",
                 },
                 {
-                        title: "khjfbkhs",
-                        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
+                        title: "6",
+                        paragraph: "J'ai 6 casquettes: Musicien, Professeur, Directeur d'école de musique et Formateur de professeurs de musique. Photographe et développeur Web!",
                         icon: "icon",
                 },
                 {
-                        title: "khjfbkhs",
-                        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem dolores esse adipisci reprehenderit ",
+                        title: "2",
+                        paragraph: "J'enseigne sur deux lieux: Lyon 6 et les monts du Lyonnais.",
                         icon: "icon",
                 },
         ];
 </script>
 
-<section class="About">
+<section class="About" id="About">
         <img src={ProfilPicture} alt="" class="img" />
         <div class="wrapper-text">
-                <h1>About</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, esse ipsa recusandae cupiditate aperiam velit nisi nobis aliquid nostrum iure officiis quas officia numquam dignissimos voluptas quasi eveniet nam cumque.</p>
+                <h1>À propos</h1>
+                <p>
+                        J'ai lu un jour dans une revue pédgaogique, qu'enseigner consiste à éveiller les consiences à penser par elle même. Je crois que c'est exactement ce que je cherche à faire dès lors que je donne un cours de Guitare Je vise l'autonomie de l'élève. Expérimenter c'est comprendre et comprendre c'est apprendre. Lorsque l'on sait comment les choses fonctionnent alors, libre à nous
+                        de créer, de jouer et d'évoluer comme bon nous semble dans la matière que l'on apprend. <br />J'ai donné plus de 17 000 heures de cours de Guitare ! À l'école de musique Issétys, école que j'ai créé en 2009 et dans laquelle j'enseigne encore, je dis souvent aux professeurs avec qui je collabore: "regardez bien l'attitude de votre élève quand il arrive dans la salle et
+                        observez bien son attitude quand il repart". La musique appaise, la musique épanouit. Elle nous demande une grande concentration et elle requiert que notre esprit et notre corps soit à 100% connecté et relié. <br /> J'ai 52 ans aujorud'hui et j'enseigne depuis que j'ai 20 ans. J'ai été musicien professionnel, j'ai une licence de musicologie, j'aie une médaille d'or de
+                        guitare jazz et un DEM de musique actuelle. J'ai beauoucp joué et beaucoup étudié. Mais ça j'allais dire, c'est le minimum syndical ! <br /> Ce qui compte pour enseigner, c'est la passion d'une part, l'envie et le besoin de transmettre d'autre part et pour finir, avoir suffisamment d'empathie et de technique pédagogique pour s'adapter à chaque élève et lui permettre de grandir
+                        et d'évoluer dans sa pratique.
+                </p>
                 <Button />
         </div>
         <div class="wrapper-frames-circle">
@@ -40,9 +46,9 @@
         .About {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 700px);
                 padding: 20px;
-                height: auto;
+                /* height: 1400px; */
         }
         .img {
                 grid-column: 1/2;
@@ -52,6 +58,7 @@
                 /* border-radius: 50%; */
                 margin: 0 auto;
                 display: block;
+                margin-top: 50px;
         }
         .wrapper-text {
                 grid-column: 2/3;
@@ -61,7 +68,11 @@
                 justify-content: center;
                 align-items: left;
                 gap: 20px;
-                margin-top: -200px;
+                margin-top: 50px;
+        }
+        .wrapper-text p {
+                line-height: 25px;
+                margin-bottom: 50px;
         }
         .wrapper-frames-circle {
                 grid-column: 1/3;
@@ -71,24 +82,26 @@
                 justify-content: center;
                 gap: 20px;
         }
-     
 
         @media screen and (max-width: 768px) {
                 .About {
                         grid-template-columns: 1fr;
-                        height: 2000px;
+                        grid-template-rows:auto;
                 }
                 .img {
-                        grid-column: 1/2;
+                        grid-column: 1;
                         grid-row: 1;
                         width: 200px;
                         height: 200px;
                         align-self: center;
+                          margin-top: 0px;
+                          border-radius: 50%;   
                 }
                 .wrapper-text {
-                        grid-column: 1/2;
+                        grid-column: 1;
                         grid-row: 2;
                         gap: 20px;
+                        margin-bottom: 50px;
                 }
                 .wrapper-frames-circle {
                         grid-column: 1/3;

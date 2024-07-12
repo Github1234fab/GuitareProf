@@ -1,13 +1,9 @@
 <script>
         export let title;
-        export let subtitle;
-        export let bgImageUrl;
 </script>
 
 <div class="wrapper-card">
-        <div class="card" style="background-image: url({bgImageUrl})"></div>
         <h1>{title}</h1>
-        <p class="paragraph">{subtitle}</p>
 </div>
 
 <style>
@@ -17,22 +13,27 @@
                 align-items: center;
                 justify-content: center;
                 gap: 10px;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.211);
+                padding: 10px;
+                border: 3px solid rgb(223, 198, 198);
+                border-radius: 8px;
+                max-width: 150px;
+                min-height: 100px;
+                flex: 1 1 50%;
         }
-        .card {
-                background-size: cover;
-                background-position: center;
-                min-width: 300px;
-                min-height: 300px;
-        }
+
         .wrapper-card h1 {
                 color: var(--bgHeader);
                 text-align: center;
-                font-size: 1.5rem;
+                color: var(--bgHero);
+                font-size: 0.9rem;
+                font-weight: 500;
         }
-        .paragraph {
-                color: var(--bgHeader);
-                text-align: center;
-                font-size: 1.2rem;
-                font-weight: 400;
+
+        @media screen and (max-width: 768px) {
+                .wrapper-card {
+                        min-width: 250px;
+                        max-height: 200px;
+                }
         }
 </style>

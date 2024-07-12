@@ -10,6 +10,7 @@
                 font-weight: 400;
                 max-width: 100px;
                 padding: 10px 20px;
+                   z-index:   2;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
