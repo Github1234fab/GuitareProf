@@ -9,7 +9,7 @@
 </script>
 
 <Hero />
-<About />
+<!-- <About /> -->
 <Products />
 <Service />
 <Social />

@@ -17,9 +17,11 @@
                 padding: 10px;
                 border: 3px solid rgb(223, 198, 198);
                 border-radius: 8px;
-                max-width: 150px;
+                max-width: 200px;
+                min-width: 170px;
                 min-height: 100px;
-                flex: 1 1 50%;
+                flex: 1 1 10%;
+                background-color: rgb(255, 255, 255);
         }
 
         .wrapper-card h1 {
@@ -28,6 +30,15 @@
                 color: var(--bgHero);
                 font-size: 0.9rem;
                 font-weight: 500;
+        }
+
+        @media screen and (max-width: 1375px) {
+                .wrapper-card {
+                        max-width: 170px;
+                        min-width: 170px;
+                        min-height: 100px;
+                        flex: 1 1 20%;
+                }
         }
 
         @media screen and (max-width: 768px) {

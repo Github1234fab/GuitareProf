@@ -23,8 +23,9 @@
 </script>
 
 <section class="About" id="About">
-        <img src={ProfilPicture} alt="" class="img" />
+      
         <div class="wrapper-text">
+                  <img src={ProfilPicture} alt="" class="img" />
                 <h1>À propos</h1>
                 <p>
                         J'ai lu un jour dans une revue pédgaogique, qu'enseigner consiste à éveiller les consiences à penser par elle même. Je crois que c'est exactement ce que je cherche à faire dès lors que je donne un cours de Guitare Je vise l'autonomie de l'élève. Expérimenter c'est comprendre et comprendre c'est apprendre. Lorsque l'on sait comment les choses fonctionnent alors, libre à nous
@@ -45,7 +46,7 @@
 <style>
         .About {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
                 grid-template-rows: repeat(2, 700px);
                 padding: 20px;
                 /* height: 1400px; */
@@ -61,10 +62,10 @@
                 margin-top: 50px;
         }
         .wrapper-text {
-                grid-column: 2/3;
+                grid-column: 1;
                 grid-row: 1;
                 display: flex;
-                flex-direction: column;
+                /* flex-direction: column; */
                 justify-content: center;
                 align-items: left;
                 gap: 20px;
@@ -101,7 +102,6 @@
                         grid-column: 1;
                         grid-row: 2;
                         gap: 20px;
-                        margin-bottom: 50px;
                 }
                 .wrapper-frames-circle {
                         grid-column: 1/3;
